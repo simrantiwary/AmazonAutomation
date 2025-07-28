@@ -20,7 +20,7 @@ public class AmazonLaunch {
 	public void launch() throws InterruptedException
 	{
 		driver = new ChromeDriver();
-		
+		//launch amazon
 		driver.get("https://www.amazon.in/");
 		
 		Thread.sleep(3000);
